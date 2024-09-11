@@ -6,8 +6,15 @@ const message = ref('Hello Padel Point User')
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
-  <SideBarManu />
+  <v-layout class="rounded rounded-md">
+    <v-app-bar title="Padel Point" />
+
+    <SideBarManu />
+
+    <v-main class="d-flex align-center justify-center" style="min-height: 300px">
+      Main Content
+    </v-main>
+  </v-layout>
 </template>
 
 <style scoped></style>
