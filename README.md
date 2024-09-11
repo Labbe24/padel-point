@@ -1,18 +1,24 @@
-# padel-point
+# Padel Point
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue webapplication for booking padel courts.
+
+With this app the user must be able to
+1. View all padel courts.
+2. View available timeslots for each court.
+3. Book a court.
+
+The user should also be able to
+1. Login to an account.
+2. View history of booked courts.
+
+It would be nice if an adminstrator could view
+1. Relevant statistics.
+
 
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
